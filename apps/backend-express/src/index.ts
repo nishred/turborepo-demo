@@ -6,7 +6,7 @@ const app = express();
 
 app.get("/", (req: Request, res: Response) => {
   const person = {
-    name: "manvitha Reddy vedere",
+    name: "cristiano ronaldo",
     age: 25,
   };
 
@@ -18,3 +18,6 @@ app.get("/", (req: Request, res: Response) => {
 });
 
 app.listen(3002);
+
+
+
